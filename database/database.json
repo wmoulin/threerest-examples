@@ -1,0 +1,833 @@
+{
+    "authors": [
+        {
+            "id":1,
+            "last_name": "Spiegelman",
+            "first_name": "Art",
+            "date_of_birth": "15/02/1948",
+            "place_of_birth": "Stockholm, Suède",
+            "nationality": "Américaine",
+            "series": [
+                {
+                    "id": 1
+                }
+            ]
+        },
+        {
+            "id":2,
+            "last_name": "Bec",
+            "first_name": "Christophe",
+            "date_of_birth": "24/08/1969",
+            "place_of_birth": "Rodez, France",
+            "nationality": "Française",
+            "series": [
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                },
+                {
+                    "id": 4
+                },
+                {
+                    "id": 5
+                },
+                {
+                    "id": 6
+                }
+            ]
+        },
+        {
+            "id":3,
+            "last_name": "Bajram",
+            "first_name": "Denis",
+            "date_of_birth": "01/02/1970",
+            "place_of_birth": "Paris, France",
+            "nationality": "Française",
+            "series": [
+                {
+                  "id": 7
+                },
+                {
+                  "id": 8
+                },
+                {
+                  "id": 9
+                }
+            ]
+        },
+        {
+            "id":4,
+            "last_name": "Bilal",
+            "first_name": "Enki",
+            "date_of_birth": "01/10/1951",
+            "place_of_birth": "Belgrade, Yougoslavie",
+            "nationality": "Française",
+            "series": [
+                {
+                  "id": 10
+                },
+                {
+                  "id": 11
+                }
+            ]
+        },
+        {
+            "id":5,
+            "last_name": "Miller",
+            "first_name": "Frank",
+            "date_of_birth": "27/01/1957",
+            "place_of_birth": "Olney, États-Unis",
+            "nationality": "Américaine",
+            "series": [
+                {
+                  "id": 12
+                }
+            ]
+        }
+    ],
+    "series": [
+        {
+            "id":1,
+            "name": "Maus",
+            "author": 1,
+            "number_of_tome": 2,
+            "current_series": false,
+            "titles": [
+                {
+                    "id": 1
+                }
+            ]
+        },
+        {
+            "id":2,
+            "name": "Carthago",
+            "author": 2,
+            "number_of_tome": 4,
+            "current_series": true,
+            "titles": [
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                },
+                {
+                    "id": 4
+                },
+                {
+                    "id": 5
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name": "Deepwater Prison",
+            "author": 2,
+            "number_of_tome": 3,
+            "current_series": false,
+            "titles": [
+                {
+                    "id": 6
+                },
+                {
+                    "id": 7
+                },
+                {
+                    "id": 8
+                }
+            ]
+        },
+        {
+            "id":4,
+            "name": "Meilleur Job du monde (le)",
+            "author": 2,
+            "number_of_tome": 3,
+            "current_series": false,
+            "titles": [
+                {
+                    "id": 9
+                },
+                {
+                    "id": 10
+                },
+                {
+                    "id": 11
+                }
+            ]
+        },
+        {
+            "id":5,
+            "name": "Prométhée",
+            "author": 2,
+            "number_of_tome": 13,
+            "current_series": true,
+            "titles": [
+                {
+                    "id": 12
+                },
+                {
+                    "id": 13
+                },
+                {
+                    "id": 14
+                },
+                {
+                    "id": 15
+                },
+                {
+                    "id": 16
+                },
+                {
+                    "id": 17
+                },
+                {
+                    "id": 18
+                },
+                {
+                    "id": 19
+                },
+                {
+                    "id": 20
+                },
+                {
+                    "id": 21
+                },
+                {
+                    "id": 22
+                },
+                {
+                    "id": 23
+                }
+            ]
+        },
+        {
+            "id":6,
+            "name": "Temps des loups (Le)",
+            "author": 2,
+            "number_of_tome": 3,
+            "current_series": false,
+            "titles": [
+                {
+                    "id": 24
+                }
+            ]
+        },
+        {
+            "id":7,
+            "name": "Expérience mort",
+            "author": 3,
+            "number_of_tome": 3,
+            "current_series": false,
+            "titles": [
+                {
+                    "id": 25
+                },
+                {
+                    "id": 26
+                }
+            ]
+        },
+        {
+            "id":8,
+            "name": "Universal War One",
+            "author": 3,
+            "number_of_tome": 6,
+            "current_series": false,
+            "titles": [
+                {
+                    "id": 27
+                },
+                {
+                    "id": 28
+                },
+                {
+                    "id": 29
+                },
+                {
+                    "id": 30
+                },
+                {
+                    "id": 31
+                },
+                {
+                    "id": 32
+                },
+                {
+                    "id": 33
+                }
+            ]
+        },
+        {
+            "id":9,
+            "name": "Universal War Two",
+            "author": 3,
+            "number_of_tome": 2,
+            "current_series": true,
+            "titles": [
+                {
+                    "id": 34
+                },
+                {
+                    "id": 35
+                }
+            ]
+        },
+        {
+            "id":10,
+            "name": "La trilogie nikopol",
+            "author": 4,
+            "number_of_tome": 3,
+            "current_series": false,
+            "titles": [
+                {
+                    "id": 36
+                },
+                {
+                    "id": 37
+                }
+            ]
+        },
+        {
+            "id":11,
+            "name": "La Tétralogie du Monstre",
+            "author": 4,
+            "number_of_tome": 4,
+            "current_series": false,
+            "titles": [
+                {
+                    "id": 38
+                },
+                {
+                    "id": 39
+                },
+                {
+                    "id": 40
+                },
+                {
+                    "id": 41
+                }
+            ]
+        },
+        {
+            "id":12,
+            "name": "Sin City",
+            "author": 5,
+            "number_of_tome": 7,
+            "current_series": false,
+            "titles": [
+                {
+                    "id": 42
+                },
+                {
+                    "id": 43
+                },
+                {
+                    "id": 44
+                },
+                {
+                    "id": 45
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "id":1,
+            "name": "Maus",
+            "serie": "Maus",
+            "tome": "Integrale",
+            "isbn": "2-08-067534-6",
+            "editor": "Flammarion",
+            "author": 1,
+            "illustrator": "Art Spiegelman",
+            "colourist": " <N&B>"
+        },
+        {
+            "id":2,
+            "name": "Le Lagon de Fortuna",
+            "serie": "Carthago",
+            "tome": "1",
+            "isbn": "978-2-7316-1785-6",
+            "editor": "Les Humanoïdes Associés",
+            "author": 2,
+            "illustrator": "Éric Henninot",
+            "colourist": "Delphine Rieu"
+        },
+        {
+            "id":3,
+            "name": "L'Abysse Challenger",
+            "serie": "Carthago",
+            "tome": "2",
+            "isbn": "978-2-7316-2141-9",
+            "editor": "Les Humanoïdes Associés",
+            "author": 2,
+            "illustrator": "Éric Henninot",
+            "colourist": "Pierre Matterne"
+        },
+        {
+            "id":4,
+            "name": "Le monstre de Djibouti",
+            "serie": "Carthago",
+            "tome": "3",
+            "isbn": "978-2-7316-7236-7",
+            "editor": "Les Humanoïdes Associés",
+            "author": 2,
+            "illustrator": "Milan Jovanovic",
+            "colourist": "Marc Sintes"
+        },
+        {
+            "id":5,
+            "name": "Les monolithes de Koubé",
+            "serie": "Carthago",
+            "tome": "4",
+            "isbn": "978-2-7316-4027-4",
+            "editor": "Les Humanoïdes Associés",
+            "author": 2,
+            "illustrator": "Milan Jovanovic",
+            "colourist": "Delphine Rieu"
+        },
+        {
+            "id":6,
+            "name": "Constellation",
+            "serie": "Deepwater Prison",
+            "tome": "1",
+            "isbn": "978-2-302-03748-9",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":7,
+            "name": "Le Bloc",
+            "serie": "Deepwater Prison",
+            "tome": "2",
+            "isbn": "978-2-302-04249-0",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":8,
+            "name": "L'île Carpenter",
+            "serie": "Meilleur Job du monde (le)",
+            "tome": "1",
+            "isbn": "978-2-302-01949-2",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Rafael Fonteriz",
+            "colourist": "Hugo Sebastian Facio Garcia"
+        },
+        {
+            "id":9,
+            "name": "Tempêtes",
+            "serie": "Meilleur Job du monde (le)",
+            "tome": "2",
+            "isbn": "978-2-302-03075-6",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Rafael Fonteriz",
+            "colourist": "Hugo Sebastian Facio Garcia"
+        },
+        {
+            "id":10,
+            "name": "Le Cobaye",
+            "serie": "Meilleur Job du monde (le)",
+            "tome": "3",
+            "isbn": "978-2-302-04106-6",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Rafael Fonteriz",
+            "colourist": "Hugo Sebastian Facio Garcia"
+        },
+        {
+            "id":11,
+            "name": "Atlantis",
+            "serie": "Prométhée",
+            "tome": "1",
+            "isbn": "978-2-302-00442-9",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Christophe Bec",
+            "colourist": "Sébastien Gérard"
+        },
+        {
+            "id":12,
+            "name": "Blue beam project",
+            "serie": "Prométhée",
+            "tome": "2",
+            "isbn": "978-2-302-00674-4",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Christophe Bec",
+            "colourist": "Sébastien Gérard"
+        },
+        {
+            "id":13,
+            "name": "Exogénèse",
+            "serie": "Prométhée",
+            "tome": "3",
+            "isbn": "978-2-302-01106-9",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Alessandro Bocci",
+            "colourist": "Sébastien Gérard"
+        },
+        {
+            "id":14,
+            "name": "Mantique",
+            "serie": "Prométhée",
+            "tome": "4",
+            "isbn": "978-2-302-01615-6",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":15,
+            "name": "Le Sarcophage",
+            "serie": "Prométhée",
+            "tome": "5",
+            "isbn": "978-2-302-01961-4",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":16,
+            "name": "L'Arche",
+            "serie": "Prométhée",
+            "tome": "6",
+            "isbn": "978-2-302-02332-1",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":17,
+            "name": "La Théorie du 100e singe",
+            "serie": "Prométhée",
+            "tome": "7",
+            "isbn": "978-2-302-02706-0",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":18,
+            "name": "Necromanteion",
+            "serie": "Prométhée",
+            "tome": "8",
+            "isbn": "978-2-302-02538-7",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":19,
+            "name": "Dans les ténèbres (1/2)",
+            "serie": "Prométhée",
+            "tome": "9",
+            "isbn": "978-2-302-03691-8",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":20,
+            "name": "Dans les ténèbres (2/2)",
+            "serie": "Prométhée",
+            "tome": "10",
+            "isbn": "978-2-302-03828-8",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":21,
+            "name": "Le Treizième Jour",
+            "serie": "Prométhée",
+            "tome": "11",
+            "isbn": "978-2-302-04345-9",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":22,
+            "name": "Providence",
+            "serie": "Prométhée",
+            "tome": "12",
+            "isbn": "978-2-302-04650-4",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":23,
+            "name": "Contacts",
+            "serie": "Prométhée",
+            "tome": "13",
+            "isbn": "978-2-302-04885-0",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":24,
+            "name": "Intégrale ",
+            "serie": "Temps des loups (Le)",
+            "tome": "Integrale",
+            "isbn": "978-2-302-02094-8",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Luca Raimondo",
+            "colourist": "Nicolas Bastide"
+        },
+        {
+            "id":25,
+            "name": "La barque de RÂ",
+            "serie": "Expérience mort",
+            "tome": "1",
+            "isbn": "978-2-359-10372-4",
+            "editor": "Ankama Éditions",
+            "author": 3,
+            "illustrator": "Jean-Michel Ponzio",
+            "colourist": "Jean-Michel Ponzio"
+        },
+        {
+            "id":26,
+            "name": "Cimetière céleste",
+            "serie": "Expérience mort",
+            "tome": "2",
+            "isbn": "978-2-359-10397-7",
+            "editor": "Ankama Éditions",
+            "author": 3,
+            "illustrator": "Jean-Michel Ponzio",
+            "colourist": "Jean-Michel Ponzio"
+        },
+        {
+            "id":27,
+            "name": "La Genèse",
+            "serie": "Universal War One",
+            "tome": "1",
+            "isbn": "2-87764-807-9",
+            "editor": "Soleil Productions",
+            "author": 3,
+            "illustrator": "Denis Bajram",
+            "colourist": "Denis Bajram"
+        },
+        {
+            "id":28,
+            "name": "Le fruit de la connaissance",
+            "serie": "Universal War One",
+            "tome": "2",
+            "isbn": "2-87764-937-7",
+            "editor": "Soleil Productions",
+            "author": 3,
+            "illustrator": "Denis Bajram",
+            "colourist": "Denis Bajram"
+        },
+        {
+            "id":29,
+            "name": "Caïn et Abel",
+            "serie": "Universal War One",
+            "tome": "3",
+            "isbn": "2-84565-037-X",
+            "editor": "Soleil Productions",
+            "author": 3,
+            "illustrator": "Denis Bajram",
+            "colourist": "Denis Bajram"
+        },
+        {
+            "id":30,
+            "name": "Le déluge",
+            "serie": "Universal War One",
+            "tome": "4",
+            "isbn": "2-84565-234-8",
+            "editor": "Soleil Productions",
+            "author": 3,
+            "illustrator": "Denis Bajram",
+            "colourist": "Denis Bajram"
+        },
+        {
+            "id":31,
+            "name": "Babel",
+            "serie": "Universal War One",
+            "tome": "5",
+            "isbn": "2-84565-406-5",
+            "editor": "Soleil Productions",
+            "author": 3,
+            "illustrator": "Denis Bajram",
+            "colourist": "Denis Bajram"
+        },
+        {
+            "id":32,
+            "name": "Le patriarche",
+            "serie": "Universal War One",
+            "tome": "6",
+            "isbn": "2-84946-095-8",
+            "editor": "Soleil Productions",
+            "author": 3,
+            "illustrator": "Denis Bajram",
+            "colourist": "Denis Bajram"
+        },
+        {
+            "id":33,
+            "name": "Intégrale",
+            "serie": "Universal War One",
+            "tome": "Integrale",
+            "isbn": "2-84565-246-1",
+            "editor": "Soleil Productions",
+            "author": 3,
+            "illustrator": "Denis Bajram",
+            "colourist": "Denis Bajram"
+        },
+        {
+            "id":34,
+            "name": "Le temps du désert",
+            "serie": "Universal War Two",
+            "tome": "1",
+            "isbn": "978-2-203-05862-0",
+            "editor": "Casterman",
+            "author": 3,
+            "illustrator": "Denis Bajram",
+            "colourist": "Denis Bajram"
+        },
+        {
+            "id":35,
+            "name": "La terre promise",
+            "serie": "Universal War Two",
+            "tome": "2",
+            "isbn": "978-2-203-07936-6",
+            "editor": "Casterman",
+            "author": 3,
+            "illustrator": "Denis Bajram",
+            "colourist": "Denis Bajram"
+        },
+        {
+            "id":36,
+            "name": "Animal'z",
+            "serie": "(AUT) Bilal",
+            "tome": "Integrale",
+            "isbn": "",
+            "editor": "Artcurial",
+            "author": 4,
+            "illustrator": "Enki Bilal",
+            "colourist": "Enki Bilal"
+        },
+        {
+            "id":37,
+            "name": "La trilogie nikopol",
+            "serie": "(AUT) Bilal",
+            "tome": "Integrale",
+            "isbn": "978-2-203-02008-5",
+            "editor": "Casterman",
+            "author": 4,
+            "illustrator": "Enki Bilal",
+            "colourist": "Enki Bilal"
+        },
+        {
+            "id":38,
+            "name": "Le sommeil du monstre",
+            "serie": "Sommeil du monstre (Le)",
+            "tome": "1",
+            "isbn": "2-7316-1230-4",
+            "editor": "Les Humanoïdes Associés",
+            "author": 4,
+            "illustrator": "Enki Bilal",
+            "colourist": "Enki Bilal"
+        },
+        {
+            "id":39,
+            "name": "32 décembre",
+            "serie": "Sommeil du monstre (Le)",
+            "tome": "2",
+            "isbn": "2-7316-1472-2",
+            "editor": "Les Humanoïdes Associés",
+            "author": 4,
+            "illustrator": "Enki Bilal",
+            "colourist": "Enki Bilal"
+        },
+        {
+            "id":40,
+            "name": "Rendez-Vous à Paris",
+            "serie": "Sommeil du monstre (Le)",
+            "tome": "3",
+            "isbn": "2-203-35332-5",
+            "editor": "Casterman",
+            "author": 4,
+            "illustrator": "Enki Bilal",
+            "colourist": "Enki Bilal"
+        },
+        {
+            "id":41,
+            "name": "Quatre ?",
+            "serie": "Sommeil du monstre (Le)",
+            "tome": "4",
+            "isbn": "978-2-203-35344-2",
+            "editor": "Casterman",
+            "author": 4,
+            "illustrator": "Enki Bilal",
+            "colourist": "Enki Bilal"
+        },
+        {
+            "id":42,
+            "name": "J'ai tué pour elle",
+            "serie": "Sin City",
+            "tome": "2",
+            "isbn": "2-908981-17-3",
+            "editor": "Vertige Graphic",
+            "author": 5,
+            "illustrator": "Frank Miller",
+            "colourist": " <N&B>"
+        },
+        {
+            "id":43,
+            "name": "Le grand carnage",
+            "serie": "Sin City",
+            "tome": "3",
+            "isbn": "2-908981-21-1",
+            "editor": "Vertige Graphic",
+            "author": 5,
+            "illustrator": "Frank Miller",
+            "colourist": " <N&B>"
+        },
+        {
+            "id":44,
+            "name": "Cet enfant de salaud",
+            "serie": "Sin City",
+            "tome": "4",
+            "isbn": "2-908981-25-4",
+            "editor": "Vertige Graphic",
+            "author": 5,
+            "illustrator": "Frank Miller",
+            "colourist": " <N&B>"
+        },
+        {
+            "id":45,
+            "name": "Des filles et des flingues",
+            "serie": "Sin City",
+            "tome": "6",
+            "isbn": "2-908981-40-8",
+            "editor": "Vertige Graphic",
+            "author": 5,
+            "illustrator": "Frank Miller",
+            "colourist": " <N&B>"
+        }
+
+    ]
+}

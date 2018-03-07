@@ -1,0 +1,98 @@
+{
+    "authors": [
+        {
+            "id":2,
+            "last_name": "Bec",
+            "first_name": "Christophe",
+            "date_of_birth": "24/08/1969",
+            "place_of_birth": "Rodez, France",
+            "nationality": "Française",
+            "series": [
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ]
+        }
+    ],
+    "series": [
+        {
+            "id":2,
+            "name": "Carthago",
+            "author": 2,
+            "number_of_tome": 4,
+            "current_series": true,
+            "titles": [
+                {
+                    "id": 2
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name": "Deepwater Prison",
+            "author": 2,
+            "number_of_tome": 3,
+            "current_series": false,
+            "titles": [
+                {
+                    "id": 6
+                },
+                {
+                    "id": 7
+                },
+                {
+                    "id": 8
+                }
+            ]
+        }
+    ],
+    "titles": [
+        {
+            "id":2,
+            "name": "Le Lagon de Fortuna",
+            "serie": "Carthago",
+            "tome": "1",
+            "isbn": "978-2-7316-1785-6",
+            "editor": "Les Humanoïdes Associés",
+            "author": 2,
+            "illustrator": "Éric Henninot",
+            "colourist": "Delphine Rieu"
+        },
+        {
+            "id":6,
+            "name": "Constellation",
+            "serie": "Deepwater Prison",
+            "tome": "1",
+            "isbn": "978-2-302-03748-9",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":7,
+            "name": "Le Bloc",
+            "serie": "Deepwater Prison",
+            "tome": "2",
+            "isbn": "978-2-302-04249-0",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Stefano Raffaele",
+            "colourist": " Digikore Studios"
+        },
+        {
+            "id":8,
+            "name": "L'île Carpenter",
+            "serie": "Meilleur Job du monde (le)",
+            "tome": "1",
+            "isbn": "978-2-302-01949-2",
+            "editor": "Soleil Productions",
+            "author": 2,
+            "illustrator": "Rafael Fonteriz",
+            "colourist": "Hugo Sebastian Facio Garcia"
+        }
+    ]
+}
