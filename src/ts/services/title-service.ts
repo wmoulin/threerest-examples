@@ -1,4 +1,4 @@
-import { Service, Methods, Hal } from "threerest";
+import { Service, Methods, Hal, NotFoundError } from "threerest";
 
 import BdHelper from "../helpers/bdHelper";
 
@@ -19,6 +19,6 @@ export default class ServiceTitles {
    	if (result) {
        return BdHelper.getTitle(result, id);
    	}
-     throw new Error("Ouups !");
+    throw new NotFoundError();
   }
 }

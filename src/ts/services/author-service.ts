@@ -1,4 +1,4 @@
-import { Service, Methods, Hal } from "threerest";
+import { Service, Methods, Hal, NotFoundError } from "threerest";
 
 import BdHelper from "../helpers/bdHelper";
 import Serie from "../models/serie";
@@ -23,6 +23,6 @@ export default class ServiceAuthors {
       let series = BdHelper.getShortSerie(result['series']);
       return new Author(result.id, result["first_name"], result["last_name"], series);
     }
-    throw new Error("Ouups !");
+    throw new NotFoundError();
   }
 }

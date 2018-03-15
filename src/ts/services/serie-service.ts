@@ -1,4 +1,4 @@
-import { Service, Methods, Hal } from "threerest";
+import { Service, Methods, Hal, NotFoundError } from "threerest";
 
 import BdHelper from "../helpers/bdHelper";
 import Serie from "../models/serie";
@@ -22,6 +22,6 @@ export default class ServiceSeries {
       serie.titles = titles;
       return serie;
     }
-    throw new Error("Ouups !");
+    throw new NotFoundError();
   }
 }
