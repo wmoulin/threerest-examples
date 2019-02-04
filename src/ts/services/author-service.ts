@@ -1,23 +1,26 @@
-import { Service, Methods, Hal, NotFoundError } from "threerest";
+import { Service, Methods, Hal, NotFoundError, Params } from "threerest";
 
 import BdHelper from "../helpers/bdHelper";
-import Serie from "../models/serie";
 import Author from "../models/author";
 //var db = require('../database/database');
 
 @Service.path("/authors")
+/**
+ * this is class documentation
+ */
 export default class ServiceAuthors {
-
+  
+  /**
+   * this is method documentation
+   */
   @Methods.get("")
-  @Hal.halServiceMethod(true)
-  getAll() {
+  getAll() : Author[] {
     return BdHelper.getAllAuthors();
   }
 
   @Methods.get("/:id")
   @Hal.halServiceMethod()
-  getswitchId(value) {
-    var id = value.id;
+  getswitchId(@Params("id") id: number) {
     var result = BdHelper.searchParams('authors', 'id', id);
     if (result) {
       let series = BdHelper.getShortSerie(result['series']);

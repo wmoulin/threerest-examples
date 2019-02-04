@@ -1,4 +1,4 @@
-import { Service, Methods, Hal, NotFoundError } from "threerest";
+import { Service, Methods, Hal, NotFoundError, Params } from "threerest";
 
 import BdHelper from "../helpers/bdHelper";
 import Serie from "../models/serie";
@@ -14,8 +14,8 @@ export default class ServiceSeries {
 
   @Methods.get("/:id")
   @Hal.halServiceMethod()
-  getswitchId(value) {
-    var result = BdHelper.searchParams('series', 'id', value.id);
+  getswitchId(@Params("id") id: number) {
+    var result = BdHelper.searchParams('series', 'id', id);
   	if (result) {
       let titles = BdHelper.getShortTitles(result['titles']);
       let serie = new Serie(result.id, result["name"], result["number_of_tome"], result["current_series"]);

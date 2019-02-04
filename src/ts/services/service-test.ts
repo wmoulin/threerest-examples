@@ -1,7 +1,7 @@
-import { Service, Methods } from "threerest";
+import { Service, Methods, Params } from "threerest";
 
 @Service.path("/test")
-export default class ServiceTitles {
+export default class ServiceTest {
 
   @Methods.get("")
   getAll() {
@@ -9,7 +9,7 @@ export default class ServiceTitles {
   }
 
   @Methods.get("/:id")
-  getId(param:{id:number, message:string}) {
-    return {"name": "test", "id": param};
+  getId(@Params("id") id: number) {
+    return {"name": "test", "id": id};
   }
 }

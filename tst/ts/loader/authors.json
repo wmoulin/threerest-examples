@@ -1,0 +1,213 @@
+{  
+  "data":[  
+     {  
+        "id":1,
+        "firstName":"Art",
+        "lastName":"Spiegelman",
+        "series":[  
+           {  
+              "id":1,
+              "name":"Maus",
+              "number_of_tome": 2,
+              "current_series": false,
+              "_links":{  
+                 "self":{  
+                    "href":"/series/1"
+                 }
+              }
+           }
+        ],
+        "_links":{  
+           "self":{  
+              "href":"/authors/1"
+           }
+        }
+     },
+     {  
+        "id":2,
+        "firstName":"Christophe",
+        "lastName":"Bec",
+        "series":[  
+           {  
+              "id":2,
+              "name":"Carthago",
+              "number_of_tome": 4,
+              "current_series": true,
+              "_links":{  
+                 "self":{  
+                    "href":"/series/2"
+                 }
+              }
+           },
+           {  
+              "id":3,
+              "name":"Deepwater Prison",
+              "number_of_tome": 3,
+              "current_series": false,
+              "_links":{  
+                 "self":{  
+                    "href":"/series/3"
+                 }
+              }
+           },
+           {  
+              "id":4,
+              "name":"Meilleur Job du monde (le)",
+              "number_of_tome": 3,
+              "current_series": false,
+              "_links":{  
+                 "self":{  
+                    "href":"/series/4"
+                 }
+              }
+           },
+           {  
+              "id":5,
+              "name":"Prométhée",
+              "number_of_tome": 13,
+              "current_series": true,
+              "_links":{  
+                 "self":{  
+                    "href":"/series/5"
+                 }
+              }
+           },
+           {  
+              "id":6,
+              "name":"Temps des loups (Le)",
+              "number_of_tome": 3,
+              "current_series": false,
+              "_links":{  
+                 "self":{  
+                    "href":"/series/6"
+                 }
+              }
+           }
+        ],
+        "_links":{  
+           "self":{  
+              "href":"/authors/2"
+           }
+        }
+     },
+     {  
+        "id":3,
+        "firstName":"Denis",
+        "lastName":"Bajram",
+        "series":[  
+           {  
+              "id":7,
+              "name":"Expérience mort",
+              "number_of_tome": 3,
+              "current_series": false,
+              "_links":{  
+                 "self":{  
+                    "href":"/series/7"
+                 }
+              }
+           },
+           {  
+              "id":8,
+              "name":"Universal War One",
+              "number_of_tome": 6,
+              "current_series": false,
+              "_links":{  
+                 "self":{  
+                    "href":"/series/8"
+                 }
+              }
+           },
+           {  
+              "id":9,
+              "name":"Universal War Two",
+              "number_of_tome": 2,
+              "current_series": true,
+              "_links":{  
+                 "self":{  
+                    "href":"/series/9"
+                 }
+              }
+           }
+        ],
+        "_links":{  
+           "self":{  
+              "href":"/authors/3"
+           }
+        }
+     },
+     {  
+        "id":4,
+        "firstName":"Enki",
+        "lastName":"Bilal",
+        "series":[  
+           {  
+              "id":10,
+              "name":"La trilogie nikopol",
+              "number_of_tome": 3,
+              "current_series": false,
+              "_links":{  
+                 "self":{  
+                    "href":"/series/10"
+                 }
+              }
+           },
+           {  
+              "id":11,
+              "name":"La Tétralogie du Monstre",
+              "number_of_tome": 4,
+              "current_series": false,
+              "_links":{  
+                 "self":{  
+                    "href":"/series/11"
+                 }
+              }
+           }
+        ],
+        "_links":{  
+           "self":{  
+              "href":"/authors/4"
+           }
+        }
+     },
+     {  
+        "id":5,
+        "firstName":"Frank",
+        "lastName":"Miller",
+        "series":[  
+           {  
+              "id":12,
+              "name":"Sin City",
+              "number_of_tome": 7,
+              "current_series": false,
+              "_links":{  
+                 "self":{  
+                    "href":"/series/12"
+                 }
+              }
+           }
+        ],
+        "_links":{  
+           "self":{  
+              "href":"/authors/5"
+           }
+        }
+     }
+  ],
+  "_links":{  
+     "self":{  
+        "href":"/authors"
+     },
+     "nextLink":{  
+        "href":"/authors?pageSize=NaN&pageIdx=NaN"
+     },
+     "previousLink":{  
+        "href":"/authors?pageSize=NaN&pageIdx=NaN"
+     },
+     "first":{  
+        "href":"/authors?pageSize=NaN&pageIdx=0"
+     },
+     "last":{  
+        "href":"/authors?pageSize=NaN&pageIdx=NaN"
+     }
+  }
+}

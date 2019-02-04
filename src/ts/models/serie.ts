@@ -12,14 +12,7 @@ export default class Serie {
   current_series: boolean;
   titles: Array<Title>;
 
-  /*constructor(idSerie, name, author, number_of_tome, current_series) {
-    this.idSerie = idSerie;
-    this.name = name;
-    this.author = author;
-    this.number_of_tome = number_of_tome;
-    this.current_series = current_series;
-  }*/
-  constructor(id, name, number_of_tome, current_series) {
+  constructor(id: number = 0, name: string, number_of_tome: number, current_series: boolean) {
     this.id = id;
     this.name = name;
     this.number_of_tome = number_of_tome;

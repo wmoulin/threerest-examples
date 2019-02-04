@@ -1,6 +1,8 @@
 .vscode
-dist
 node_modules
 coverage.json
 text
 html-report
+
+src/**/*.js
+src/**/*.js.map

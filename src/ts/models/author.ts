@@ -6,12 +6,12 @@ export default class Author {
 
   firstName: string;
   lastName: string;
-  series: Array<Serie>;
+  series: Serie[];
 
   @Hal.resourceId()
   id: number = 0;
 
-  constructor(id, firstName, lastName, series) {
+  constructor(id: number = 0, firstName: string, lastName: string, series: Serie[]) {
     this.id = id;
     this.firstName = firstName;
     this.lastName = lastName;
